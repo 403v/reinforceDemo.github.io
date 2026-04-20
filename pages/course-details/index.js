@@ -19,13 +19,13 @@ async function mountComponent(mountId, partialPath) {
 async function composeCourseDetailsPage() {
   try {
     // Mount global components defined in the layout
-    await mountComponent('header-mount', '../../components/header/header.html');
+    await mountComponent('header-mount', '/reinforceDemo/components/header/header.html');
     if (window.AppTheme) {
       window.AppTheme.initTheme();
       window.AppTheme.setupToggle(document);
     }
-    await mountComponent('footer-mount', '../../components/footer/footer.html');
-    await mountComponent('featured-courses-mount', '../../components/featured-courses/featured-courses.html');
+    await mountComponent('footer-mount', '/reinforceDemo/components/footer/footer.html');
+    await mountComponent('featured-courses-mount', '/reinforceDemo/components/featured-courses/featured-courses.html');
   } catch (error) {
     console.error(error);
   }

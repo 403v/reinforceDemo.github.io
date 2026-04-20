@@ -620,12 +620,12 @@ async function mountComponent(mountId, partialPath) {
 
 async function composeInstructorDetailsPage() {
   try {
-    await mountComponent('header-mount', '../../components/header/header.html');
+    await mountComponent('header-mount', '/reinforceDemo/components/header/header.html');
     if (window.AppTheme) {
       window.AppTheme.initTheme();
       window.AppTheme.setupToggle(document);
     }
-    await mountComponent('footer-mount', '../../components/footer/footer.html');
+    await mountComponent('footer-mount', '/reinforceDemo/components/footer/footer.html');
     initI18n();
   } catch (error) {
     console.error(error);
