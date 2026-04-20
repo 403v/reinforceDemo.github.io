@@ -3,7 +3,7 @@
   overflow: hidden;
   background: transparent;
   padding-top: calc(var(--header-overlay-height, 5.25rem) + 1rem);
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   margin: 0;
 }
 
