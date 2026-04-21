@@ -41,7 +41,7 @@
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--app-color-secondary-container);  
+  border: 1px solid var(--app-color-deep-yellow);  
   border-radius: 50%;
   background: transparent;
   color: var(--app-color-on-surface);
@@ -50,9 +50,9 @@
 }
 
 .nav-button:hover {
-  background: var(--app-color-secondary);
-  color: var(--app-color-on-secondary);
-  border-color: var(--app-color-secondary);
+  background: var(--app-color-deep-yellow);
+  color: var(--app-color-brand-contrast);
+  border-color: var(--app-color-deep-yellow);
 }
 
 .featured-courses-grid {

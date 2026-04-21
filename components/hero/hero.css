@@ -3,8 +3,38 @@
   overflow: hidden;
   background: transparent;
   padding-top: calc(var(--header-overlay-height, 5.25rem) + 1rem);
-  /* padding-bottom: 2rem; */
+  padding-bottom: 2rem;
   margin: 0;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  animation: zoomInSlow 15s ease-out forwards;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.3) 40%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  z-index: 1;
+  animation: fadeInOverlay 1.2s ease-out forwards;
 }
 
 .hero-orb {
@@ -15,6 +45,7 @@
   border-radius: 999px;
   filter: blur(120px);
   animation: pulseOrb 8s ease-in-out infinite alternate;
+  z-index: 1;
 }
 
 .hero-orb-left {
@@ -33,7 +64,7 @@
 
 .hero-grid {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: grid;
   gap: 1.5rem;
   align-items: center;
@@ -120,10 +151,14 @@
   z-index: 10;
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
-  border: 1px solid var(--app-color-border-soft);
+  border-radius: 1.5rem;
+  border: none;
   object-fit: cover;
-  box-shadow: var(--app-shadow-hover);
+  box-shadow: 
+    0 0 60px rgba(0, 0, 0, 0.1),
+    inset 0 0 40px rgba(0, 0, 0, 0.05),
+    0 20px 40px rgba(0, 0, 0, 0.08);
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.05));
 }
 
 @keyframes pulseOrb {
@@ -135,6 +170,26 @@
   0% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
   100% { transform: translateY(0); }
+}
+
+@keyframes zoomInSlow {
+  from {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 640px) {

@@ -6,7 +6,7 @@ const DEFAULT_LANGUAGE = 'en';
 const TRANSLATIONS = {
   en: {
     meta: {
-      title: 'Instructor Details - AOU'
+      title: 'Instructor Details - Reinforce'
     },
     theme: {
       toggleToLight: 'Switch to light mode',
@@ -25,26 +25,26 @@ const TRANSLATIONS = {
     },
     hero: {
       eyebrow: 'Mentor Profile',
-      name: 'Dr. Mohammed Hamoury',
+      name: 'Dr. Mohamed Hammouri',
       title: 'Learning Experience Strategist, Cybersecurity Mentor, and Executive Trainer',
-      summary: 'Dr. Hamoury blends academic rigor with practical industry insight to deliver courses that are precise, modern, and deeply applicable. His teaching style is measured, clear, and designed to help learners build confidence fast.',
+      summary: 'Dr. Mohamed Hammouri blends academic rigor with practical industry insight to deliver courses that are precise, modern, and deeply applicable. His teaching style is measured, clear, and designed to help learners build confidence fast.',
       statValues: ['4.9/5', '38K+', '21', '15+ yrs'],
       statLabels: ['Instructor rating', 'Learners reached', 'Published courses', 'Field experience'],
       primaryCta: 'Explore Courses',
       secondaryCta: 'Book a Session',
       focusLabel: 'Signature Focus',
       focusValue: 'Security, leadership, and practical digital transformation',
-      heroImageAlt: 'Portrait of Dr. Mohammed Hamoury'
+      heroImageAlt: 'Portrait of Dr. Mohamed Hammouri'
     },
     about: {
       eyebrow: 'About Mentor',
       title: 'Teaching with structure, clarity, and applied expertise',
-      // paragraph1: 'Dr. Hamoury focuses on high-signal learning experiences that respect the learner\'s time. His courses emphasize foundations first, then move into real-world application, case studies, and practical decision-making.',
+      // paragraph1: 'Dr. Mohamed Hammouri focuses on high-signal learning experiences that respect the learner\'s time. His courses emphasize foundations first, then move into real-world application, case studies, and practical decision-making.',
       // paragraph2: 'He is especially known for translating complex technical and strategic topics into guidance that feels direct, actionable, and immediately useful for students and working professionals.',
       pointLabels: ['Approach', 'Audience', 'Style'],
-      pointValues: ['Structured, high-clarity instruction', 'Students, graduates, and professionals', 'Direct, practical, and mentor-led'],
+      pointValues: ['Structured, high-clarity instruction', 'Students, AOU graduates, and professionals', 'Direct, practical, and mentor-led'],
       videoFallback: 'Your browser does not support the video tag.',
-      videoCaption: 'Intro video: a short mentor overview and teaching philosophy from Dr. Hamoury.'
+      videoCaption: 'Intro video: a short mentor overview and teaching philosophy from Dr. Mohamed Hammouri.'
     },
     skills: {
       eyebrow: 'Skills and Expertise',
@@ -53,7 +53,7 @@ const TRANSLATIONS = {
     },
     courses: {
       eyebrow: 'Courses by Instructor',
-      title: 'Popular learning paths led by Dr. Hamoury',
+      title: 'Popular learning paths led by Dr. Mohamed Hammouri',
       cards: [
         { badge: 'Best Seller', title: 'Cybercrime Investigation', description: 'Learn modern investigation techniques, evidence handling, and digital response workflows.', meta1: '18,420 students', meta2: 'Beginner friendly', price: 'Free', link: 'View details', imageAlt: 'Cybercrime Investigation course cover' },
         { badge: 'Top Rated', title: 'Blockchain Fundamentals', description: 'Build a clear understanding of blockchain, trust models, and applied enterprise use cases.', meta1: '12,510 students', meta2: 'Intermediate', price: '25 KWD', link: 'View details', imageAlt: 'Blockchain Fundamentals course cover' },
@@ -73,25 +73,25 @@ const TRANSLATIONS = {
     credentials: {
       eyebrow: 'Credentials & Experience',
       title: 'A profile built on applied expertise',
-      intro: 'Dr. Hamoury brings a mix of teaching experience, industry exposure, and learner-focused design. His background supports a teaching style that is confident, precise, and grounded in practical outcomes.',
+      intro: 'Dr. Mohamed Hammouri brings a mix of teaching experience, industry exposure, and learner-focused design. His background supports a teaching style that is confident, precise, and grounded in practical outcomes.',
       timelineTitles: ['Executive learning track lead', 'Cybersecurity curriculum advisor', 'Industry and higher-ed mentor'],
       timelineDescriptions: ['Developed mentor-led modules for senior professionals and academic cohorts.', 'Guided course design for practical security operations and risk programs.', 'Supported learners across technical, strategic, and leadership-focused programs.']
     },
     faq: {
       eyebrow: 'FAQ',
-      title: "Common questions about Dr. Hamoury's teaching",
+      title: "Common questions about Dr. Mohamed Hammouri's teaching",
       questions: ['What kind of learner benefits most from these courses?', 'Are the courses suitable for beginners?', 'Does he offer mentorship beyond recorded lessons?', 'Which topics are covered most often?'],
       answers: ['Students who want structure, clear guidance, and practical application will benefit most from his approach.', 'Yes. Several learning paths start with fundamentals and gradually move toward more advanced material.', 'Selected programs include live office hours, feedback checkpoints, and guided support options.', 'Cybersecurity, leadership, digital transformation, and practical strategy are recurring themes in his material.']
     },
     cta: {
       eyebrow: 'Take the Next Step',
       title: 'Learn with a mentor who values clarity and outcomes',
-      description: 'Explore the available courses or request a guided session with Dr. Hamoury to find the best learning path.',
+      description: 'Explore the available courses or request a guided session with Dr. Mohamed Hammouri to find the best learning path.',
       browse: 'Browse courses',
       plans: 'See plans'
     },
     footer: {
-      brand: 'Arab Open University',
+      brand: 'Reinforce',
       description: 'Elevating the standard of digital education through scholarly rigor and premium production.',
       socialAria: ['Globe', 'Video Library', 'Campaign'],
       columns: ['Academic', 'Institution', 'Newsletter'],
@@ -100,7 +100,7 @@ const TRANSLATIONS = {
       newsletterDescription: 'Weekly scholarly insights and program updates.',
       newsletterPlaceholder: 'scholar@university.edu',
       newsletterSubmitAria: 'Submit newsletter email',
-      copyright: '© 2026 Arab Open University. All Rights Reserved.',
+      copyright: '© 2026 Reinforce. All Rights Reserved.',
       languageLabel: 'English'
     }
   },

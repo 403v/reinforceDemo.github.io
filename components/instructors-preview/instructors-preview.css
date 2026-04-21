@@ -48,9 +48,9 @@
 }
 
 .instructors-preview-nav-button:hover {
-  background: var(--app-color-secondary);
-  color: var(--app-color-on-secondary);
-  border-color: var(--app-color-secondary);
+  background: var(--app-color-deep-yellow);
+  color: var(--app-color-brand-contrast);
+  border-color: var(--app-color-deep-yellow);
 }
 
 .instructors-preview-grid {

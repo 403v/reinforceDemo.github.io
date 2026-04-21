@@ -82,6 +82,7 @@
   font-weight: 600;
   transition: color 0.3s ease;
   padding: 0.5rem 0;
+  white-space: nowrap;
 }
 
 .nav-link::after {
@@ -142,7 +143,7 @@
 }
 
 .search-input {
-  width: 12rem;
+  width: 10rem;
   border-radius: 999px;
   border: 1px solid var(--app-color-input-border);
   background: var(--app-color-input-bg);
@@ -159,7 +160,7 @@
 }
 
 .search-input:focus {
-  width: 16rem;
+  width: 13rem;
   border-color: var(--app-color-input-focus-border);
   background: var(--app-color-input-bg-focus);
   box-shadow: 0 0 0 4px var(--app-color-focus-ring), 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -290,7 +291,7 @@
   }
 
   .search-input {
-    width: 16rem;
+    width: 12rem;
   }
 }
 
