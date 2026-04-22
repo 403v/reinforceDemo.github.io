@@ -434,7 +434,7 @@
 
 .pricing-final-cta-button:hover,
 .pricing-final-cta-button:focus-visible {
-  background: var(--app-color-action-danger-hover);
+  background: var(--app-color-action-yellow-hover);
   transform: translateY(-2px);
   box-shadow: var(--app-shadow-soft);
 }

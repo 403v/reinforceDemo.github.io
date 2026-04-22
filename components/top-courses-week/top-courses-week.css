@@ -49,9 +49,9 @@
 }
 
 .top-courses-week-nav-button:hover {
-  border-color: var(--app-color-tertiary);
-  background: var(--app-color-tertiary);
-  color: var(--app-color-on-tertiary);
+  border-color: var(--app-color-deep-yellow);
+  background: var(--app-color-deep-yellow);
+  color: var(--app-color-brand-contrast);
 }
 
 .top-courses-week-grid {
